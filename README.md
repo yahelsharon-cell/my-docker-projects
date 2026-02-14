@@ -12,6 +12,9 @@ This project deploys a secure MariaDB database alongside Adminer, a web-based da
 * **Isolated Networking:** Created a private bridge network (`backend_net`) allowing containers to communicate via internal DNS (using service names like `db`) without exposing the database directly to the public internet.
 * **Detached Operations:** Configured the stack to run in background mode (`-d`) for production-like behavior.
 
+## Acknowledgments
+This project was developed with the assistance of AI tools (Gemini) for troubleshooting and generating documentation.
+
 ## 📦 How to Run
 1. Ensure you have Docker and Docker Compose installed.
 2. Clone this repository.
